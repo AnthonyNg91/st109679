@@ -30,7 +30,7 @@ AddUser "rnmith", "password", "Nancy", "Smith", "ABC", "416-456-0000", "jsmith@s
 ''Invalid input - missing Username
 AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
-'' 2nd Invalid input - missing password
+'' Invalid input - missing password
 AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
 ''Invalid input - user already exists
